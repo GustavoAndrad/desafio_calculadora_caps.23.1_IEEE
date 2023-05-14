@@ -127,4 +127,8 @@ body {
   flex-direction: column;
 }
 
+/*INCREMENTOS*/
 
+#exponentText{
+  font-size: 0.9rem;
+}

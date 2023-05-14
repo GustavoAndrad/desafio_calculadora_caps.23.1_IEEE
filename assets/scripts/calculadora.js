@@ -56,6 +56,13 @@ function calculate(event) {
       case "/":
         res = parseInt(n1) / parseInt(n2);
         break;
+      
+      case "^": //ADICIONADO 
+        res = Math.pow(parseInt(n1), parseInt(n2));
+        break;
+
+      case "root": //ADICIONADO
+        res = Math.pow(parseInt(n1), 1/parseInt(n2));
     
       default:
         break;

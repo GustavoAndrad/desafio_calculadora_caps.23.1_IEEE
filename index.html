@@ -19,8 +19,9 @@
       <section id="buttonsGrid">
         <article id="numbersGrid">
           <button type="button" class="operatorButton" onclick="erase()"> C </button>
-          <button type="button" class="operatorButtonOff">  </button>
-          <button type="button" class="operatorButtonOff">  </button>
+          <button type="button" class="operatorButton" onclick="addOperator('root')"><sup id="exponentText">x</sup>√&#9634 </button>
+          <button type="button" class="operatorButton" onclick="addOperator('^')">&#9634<sup id="exponentText">x</sup> </button>
+
           <button type="button" class="numbersButton" onclick="addNumber('7')"> 7 </button>
           <button type="button" class="numbersButton" onclick="addNumber('8')"> 8 </button>
           <button type="button" class="numbersButton" onclick="addNumber('9')"> 9 </button>
